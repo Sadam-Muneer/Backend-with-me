@@ -9,7 +9,7 @@ var age = Notes.age;
 const result = Notes.addnumber(age + 18, 2);
 console.log(result);
 //-------------
-const data = ["person", "person", 1, 2, 1, 3, 4, 5, 2, 3, 4, 5, 2, "Hello"];
+const data = ["person", "person", 2, 2, 1, 3, 4, 5, 2, 3, 4, 5, 2, "Hello"];
 const filter = _.uniq(data);
 console.log(filter);
 console.log(_.isString(3));
